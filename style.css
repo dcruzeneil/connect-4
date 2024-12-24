@@ -1,0 +1,34 @@
+body {
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+#board{
+    height: 540px;
+    width: 630px;
+    background-color: blue;
+    border: 15px solid black;
+
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tile{
+    width: 75px;
+    height: 75px;
+    background-color: white;
+    margin: auto;
+    border: 5px solid navy;
+    border-radius: 50%;
+}
+
+.tile-red{
+    background-color: red;
+}
+
+.tile-yellow{
+    background-color: yellow;
+}
+
+
