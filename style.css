@@ -31,6 +31,10 @@ body {
     background-color: yellow;
 }
 
+.tile-win{
+    background-color: green;
+}
+
 #btn{
     width: 80px;
     height: 30px;
